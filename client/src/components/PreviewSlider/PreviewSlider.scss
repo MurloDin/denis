@@ -1,0 +1,66 @@
+.preview-slider-card {
+  z-index: -1;
+  height: 100%;
+  &__content-wrapper {
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__title {
+    text-transform: uppercase;
+    line-height: 120px;
+    font-size: 74px;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+  }
+  &__subtitle {
+    font-size: 24px;
+    font-weight: bold;
+    color: orange;
+    width: 100%;
+  }
+}
+
+.button__bar {
+  position: absolute;
+  z-index: 101200;
+  display: inline-block;
+  vertical-align: central;
+  padding: 0;
+  background: rgba(255, 255, 255, 0);
+  text-align: center;
+  bottom: 0px;
+  left:50%;
+  transform:translate(-50%, -50%);
+}
+
+.button__bar li {
+  list-style: none;
+  cursor: pointer;
+  display: inline-block;
+  margin: 20px 10px;
+  padding: 0;
+}
+
+.button__bar li button {
+  border: none;
+  background: white;
+  color: transparent;
+  cursor: pointer;
+  display: block;
+  height: 5px;
+  width: 60px;
+}
+
+.button__bar li.slick-active button {
+  background-color: #FF9900;
+}
+
+.button__bar li button:hover,
+.button__bar li button:focus {
+  outline: none !important;
+}

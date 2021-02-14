@@ -1,0 +1,17 @@
+.comments-section {
+  background-color: #FDBE34;
+  height: 500px;
+  padding-top: 50px;
+  text-align: center;
+  &__title {
+    font-weight: bold;
+    font-size: 46px;
+  }
+  &__subtitle {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  &__wrapper {
+    text-align: left;
+  }
+}

@@ -1,0 +1,16 @@
+.statistics-section {
+  height: 150px;
+  &__wrapper {
+    display: flex;
+    padding: 0;
+    height: 100%;
+  }
+  &__half {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+  }
+}

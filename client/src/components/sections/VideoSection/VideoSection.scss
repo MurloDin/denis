@@ -1,0 +1,63 @@
+.video-section {
+  display: flex;
+  height: 650px;
+  &__subtitle {
+    font-weight: bold;
+    font-size: 18px;
+    color: orange;
+  }
+  &__title {
+    font-weight: bold;
+    font-size: 27px;
+  }
+  &__desc {
+    color: rgba(1,1,1,.7);
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  &__btn-wrapper {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__text {
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #F8F9FD;
+    border-radius: 5px;
+    border: rgba(1,1,1,.2) 1px solid;
+  }
+  &__btn {
+    background-color: rgba(1,1,1,0);
+    border-radius: 5px;
+    border: rgba(1,1,1,.3) 1px solid;
+    height: 45px;
+    width: 32%;
+    &:focus {
+      border-color: #FDBE35;
+      background-color: #FDBE35;
+    }
+    &:hover {
+      border-color: #FDBE35;
+      background-color: #FDBE35;
+    }
+  }
+  &__content {
+    margin-top: 50px;
+    padding: 50px;
+    width: 50%;
+  }
+  &__img {
+    width: 50%;
+    height: 100%;
+    background: url("https://konopatka22.ru/wp-content/uploads/2020/05/photo_2020-05-31_11-54-48-1024x768.jpg") no-repeat center/cover;
+  }
+}
+
+
+.btn-focus {
+  border-color: #FDBE35;
+  background-color: #FDBE35;
+}

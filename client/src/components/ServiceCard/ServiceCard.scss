@@ -1,0 +1,17 @@
+.service-card {
+  text-align: center;
+  height: 200px;
+  padding: 0 5px;
+  &__img {
+    width: 128px;
+    height: 128px;
+  }
+  &__title {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(1,1,1,.8);
+  }
+  &__desc {
+    margin-top: 15px;
+  }
+}

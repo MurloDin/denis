@@ -1,0 +1,18 @@
+.information-card {
+  padding: 10px;
+  padding-right: 25px;
+  padding-top: 40px;
+  display: flex;
+  height: 240px;
+  &__text-wrapper {
+    margin-top: 15px;
+    padding-left: 10px;
+  }
+  &__title {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  &__desc {
+    margin-top: 10px;
+    }
+}
